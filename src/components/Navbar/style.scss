@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 150px;
+  width: 100%;
+}
+.first-div {
+  height: 75px;
+  width: 100%;
+  background-color: white;
+}
+.second-div {
+  height: 75px;
+  width: 100%;
+  background-color: rgb(194, 61, 61);
+}
+.logo {
+  display: flex;
+  justify-content: left;
+  margin-left: 80px;
+  padding-top: 20px;
+}
+.social-icons {
+  color: black;
+  display: flex;
+  margin-left: 300px;
+  justify-content: right;
+  height: 50px;
+  width: 10%;
+  margin-left: 80px;
+  padding-top: 20px;
+}
+.icon-ul {
+  display: flex;
+  color: red;
+}
+.icon-li {
+  color: black;
+  display: flex;
+  justify-content: right;
+}
+.second-div {
+}

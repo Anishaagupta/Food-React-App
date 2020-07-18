@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.second-div {
+  color: black;
+  background-color: burlywood;
+}
+
+.social-icons {
+  color: black;
+  background-color: burlywood;
+}
+/*# sourceMappingURL=style.css.map */
