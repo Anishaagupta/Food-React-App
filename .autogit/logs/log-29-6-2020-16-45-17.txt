@@ -1,0 +1,62 @@
+-------------------- Auto-Git Log --------------------
+		Wed Jul 29 2020 16:45:17 GMT+0530 (India Standard Time)
+------------------------------------------------------
+
+Modified files:
+* package-lock.json
+* package.json
+* src/App.js
+* src/assets/dineoutImages/g.png
+* src/components/BlogPost/Index.js
+* src/components/BlogPost/style.scss
+* src/components/Card/Index.js
+* src/components/Footer/Index.js
+* src/components/Footer/style.scss
+* src/components/Header/Index.js
+* src/components/Navbar/Index.js
+* src/components/Navbar/style.scss
+* src/index.css
+* src/index.js
+
+
+Created files:
+* .autogit/autogit.json
+* cities.zip
+* dineout.zip
+* gourmet.zip
+* src.zip
+* src/Blogs/Index.js
+* src/Blogs/style.scss
+* src/ReadMore/style.scss
+* src/appRouters/Index.js
+* src/components/Header/Header.style.scss
+* src/components/HomePosts/Index.js
+* src/components/HomePosts/style.scss
+* src/components/Image/Index.js
+* src/components/Image/style.scss
+* src/data/data1.js
+* src/data/data2.js
+* src/pages/Citiespage/Index.js
+* src/pages/DineOutpage/Index.js
+* src/pages/Gourmetpage/Index.js
+* src/pages/TopChefpage/Index.js
+
+
+Deleted files:
+* src/FontAwesomeIcons/index.js
+* src/components/BlogPost/style.css
+* src/components/BlogPost/style.css.map
+* src/components/Card/style.css
+* src/components/Card/style.css.map
+* src/components/Footer/style.css
+* src/components/Footer/style.css.map
+* src/components/Header/style.css
+* src/components/Header/style.css.map
+* src/components/Navbar/style.css
+* src/components/Navbar/style.css.map
+* src/components/Sidebar/style.css
+* src/components/Sidebar/style.css.map
+
+
+Renamed files:
+* [object Object]
