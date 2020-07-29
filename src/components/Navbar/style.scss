@@ -3,44 +3,77 @@
   padding: 0;
   box-sizing: border-box;
 }
-.navbar {
-  height: 150px;
+.nav {
+  position: fixed;
+  height: 50px;
   width: 100%;
 }
 .first-div {
-  height: 75px;
+  height: 50px;
   width: 100%;
   background-color: white;
 }
-.second-div {
-  height: 75px;
-  width: 100%;
-  background-color: rgb(194, 61, 61);
+.head-hr {
+  color: red;
+  background: transparent;
 }
 .logo {
   display: flex;
   justify-content: left;
   margin-left: 80px;
-  padding-top: 20px;
+  padding-top: 3px;
 }
 .social-icons {
   color: black;
   display: flex;
-  margin-left: 300px;
+  margin-top: -50px;
   justify-content: right;
-  height: 50px;
-  width: 10%;
-  margin-left: 80px;
-  padding-top: 20px;
-}
-.icon-ul {
-  display: flex;
-  color: red;
+  margin-left: 1100px;
 }
 .icon-li {
-  color: black;
   display: flex;
-  justify-content: right;
+  color: black;
+  justify-content: space-evenly;
+  padding: 12px;
+  list-style: none;
+  font-size: 15px;
+}
+.listt:hover {
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: rgb(129, 228, 241);
+  color: white;
+}
+
+.listi:hover {
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: rgb(241, 97, 157);
+  color: white;
+}
+
+.listl:hover {
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: rgb(39, 52, 235);
+  color: white;
+}
+
+.listy:hover {
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: rgb(226, 35, 35);
+  color: white;
+}
+
+.listf:hover {
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: rgb(77, 92, 231);
+  color: white;
 }
 .second-div {
+  height: 50px;
+  width: 100%;
+  background: rgb(214, 67, 67);
 }

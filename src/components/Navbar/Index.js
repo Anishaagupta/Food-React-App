@@ -1,28 +1,45 @@
 import React from 'react';
 import Logo from '../Logo/Index';
 import './style.scss';
-import '../../FontAwesomeIcons/index';
+import Header from '../Header/Index';
+import logo from '../../assets/dineoutImages/g.png'; //to import an image
+import {
+  faTwitter,
+  faFacebook,
+  faInstagram,
+  faYoutube,
+  faLinkedin,
+} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className='nav'>
       <div className='first-div'>
         <div className='logo'>
-          <Logo image='../../assets/dineoutImages/g.png' />
+          <Logo image={logo} />
         </div>
         <div className='social-icons'>
-          <ul className='icon-ul'>
-            <li className='icon-li'> {<FontAwesomeIcon icon='facebook' />}</li>
-            <li className='icon-li'>{<FontAwesomeIcon icon='instagram' />}</li>
-            <li className='icon-li'>{<FontAwesomeIcon icon='linkedin' />}</li>
-            <li className='icon-li'>{<FontAwesomeIcon icon='youtube' />}</li>
-          </ul>
+          <li className='icon-li listt'>
+            {<FontAwesomeIcon icon={faTwitter} />}
+          </li>
+          <li className='icon-li listf'>
+            {<FontAwesomeIcon icon={faFacebook} />}
+          </li>
+          <li className='icon-li listi'>
+            {<FontAwesomeIcon icon={faInstagram} />}
+          </li>
+          <li className='icon-li listl'>
+            {<FontAwesomeIcon icon={faLinkedin} />}
+          </li>
+          <li className='icon-li listy'>
+            {<FontAwesomeIcon icon={faYoutube} />}
+          </li>
         </div>
       </div>
+      <hr className='head-hr' />
       <div className='second-div'>
-        <div className='pages-name'></div>
-        <div className='search-icon'></div>
+        <Header />
       </div>
     </div>
   );

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.matter {
+  border: 1px solid white;
+}
+
+.text {
+  height: 50%;
+  width: 100%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.home-h3 {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home-p {
+  padding: 15px;
+}
+.home-span {
+  float: left;
+  padding-top: 5px;
+  padding-left: 10px;
+}
